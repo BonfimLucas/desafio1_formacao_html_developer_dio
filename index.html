@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Entendendo o Html - Dio</title>
+    </head>
+    <body>
+        <h1><i>Formação HTML Web Developer</i></h1>
+        <hr>
+
+        <h2 id="voltar">Indice</h2>
+        <ul>
+            <li><a href="#estrutura">Estrutura Básica do Html</a></li>
+            <li><a href="#falando">Falando Sobre Tags</a></li>
+            <li><a href="#atributo">Atributos das Tags</a></li>
+            <li><a href="#textos">Textos</a></li>
+            <li><a href="#listas">Listas Ordenadas e Nao Ordenadas</a></li>
+            <li><a href="#links">Links</a></li>  
+            <li><a href="#referencias">Referências</a></li>  
+
+        </ul>
+
+        <h1 id="estrutura"><i>Estrutura Básica do HTML</i></h1>
+        <p>Para escrevermos um codigo em HTML é necessário digitar a tag <<mark>html</mark>> e fecha-la</p>
+        <p>repetindo o nome da tag porem com um sinal de "/" antes da palavra "HTML" como por exemplo:</p>
+        <p><<mark>/html</mark>></p>
+
+    
+        <p>Dentro do escopo da tag, é necessário escrever as tags <<mark>head</mark>> e <<mark>body</mark>> deve ser feito isso pois</p>
+        <p>o head ira armazenar informações como o titulo da pagina ou o icone, e o body irá apresentar o cont-</p>
+        <p>eudo de nossa pagina. Lembrando que o titulo da pagina pode ser alterado utilizando a tag <<mark>title</mark>></p>
+
+        <h1 id="falando"><i>Falando sobre tags</i></h1>
+        <p>As tags tem como finalidade estruturar o nosso conteudo em um documento HTML</p>
+        <p>desde apenas apresentar o conteudo do lado via cliente, para deixa-lo mais at-</p>
+        <p>raente ao usuario ate deixa-lo mais semantico, algo que e muito importante para</p>
+        <p>mecanismos de busca, atraves da otimização <u>SEO</u>.</p> 
+        <h3><i>Algumas das tags mais utilizadas no HTML:</i></h3>    
+        <ol>
+            <li><<strong>h1</strong>>: tem como finalidade criar um titulo na pagina</li>
+            <li><<strong>p</strong>>: tem como finalidade criar um paragrafo na pagina</li>
+            <li><<strong>a</strong>>: tem como finalidade criar um link na pagina</li>
+            <li><<strong>script</strong>>: tem como finalidade executar um script de programacao na pagina, ou chamar um documento de script utilizando o <abbr title="O SRC e um atributo das tags HTML onde o parametro a ser passado pode ser um link ou o caminho para um documento, pode variar dependendo do caso">src=</abbr> na pagina</li>
+            
+        </ol>
+        <p>Lembrando que devido algumas mudancas entre as versoes do HTML, algumas tags podem aca-</p>
+        <p>bar perdendo o suporte, como por exemplo a tag <<mark>font</mark>> no qual foi muito uti-</p>
+        <p>lizada no HTML4 porem atualmente no HTML5 usamos a tag <<mark>style</mark>> para dar esti-</p>
+        <p>los em textos.</p>
+        
+        <h1 id="atributo"><i>Atributos das Tags</i></h1>
+        <p>Os atributos das tags sao aditivos que podemos colocar nas tags com um respectivo objetivo</p>
+        <p>Por exemplo, temos os atributos <mark>"class"</mark> e <mark>"id"</mark> dos quais funcionam como identificadores uni-</p>
+        <p>cos para determinado elemento no HTML. </p>
+        <p>Algumas tags possuem atributos unicos para seu tipo, por exemplo a tag <<mark>input</mark>> recebe o atributo "type="</p>
+        <p>que vem com objetivo de informar para o navegador qual o tipo de input e dados se espera na entrada.</p>
+
+        <h1 id="textos"><i>Textos</i></h1>
+        <p>Os textos sao um elemento muito importante na estrutura HTML pois cerca de 70% a 80%</p>
+        <p>de um site e composto por eles. No HTML5 possuimos algumas tags para estruturar esse</p>
+        <p>tipo de conteudo em nosso site, como por exemplo</p>
+        <ul>
+            <li><<sup>p</sup>>: Tem como objetivo criar um paragrafo de texto.</li>
+            <li><<sup>br</sup>>: Tem como objetivo quebrar a linha no final do paragrafo.</li> 
+            <li><<sup>h1 - h6</sup>>: Tem como objetivo gerar um titulo na pagina, indo do maior(h1) ao menor(h6)</li> 
+            
+        </ul>
+
+        <h1 id="listas"><i>Listas Ordenadas e Nao Ordenadas</i></h1>
+        <p> As listas sao estruturas fundamentais em nosso site, comumente usadas como menus de navegação ou tam-</p>
+        <p>bem em sites de receitas ou passo a passo em tutoriais.</p>
+        <p>No HTML possuimos dois tipos de listas, as Ordenadas, criadas com a tag <<sub>OL</sub>> e as Nao Ordenadas</p>
+        <p>criadas com a tag <<sub>UL</sub>>.</p>
+        <p>Dentro de ambas as tags e necessario utilizar a tag <<mark>li</mark>> para adicionarmos conteudos dentro de</p>
+        <p>nossa lista</p>
+        <p>Exemplos de listas com OL:</p>
+        <ol>
+            <p>Como ligar o carro</p>
+            <li>Abrir a porta.</li>
+            <li>Checar retrovisores.</li>
+            <li>Colocar o cinto.</li>
+            <li>Colocar a chave no local de entrada.</li>
+            <li>Virar a chave.</li>
+        </ol>
+
+        <p>Exemplo de listas com UL:</p>
+        <ul>
+            <p>Items escolares</p>
+            <li>Mochila</li>
+            <li>Caderno</li>
+            <li>Lapis</li>
+            <li>Caneta</li>
+            <li>Borracha</li>
+        </ul>
+
+        <h1 id="links"><i>Links</i></h1>
+        <p>Os link no HTML servem para levar o usuario a algum site ou ponto da pagina especificos</p>
+        <p>A tag utilizada para utilizar os link seria a tag <<mark>a</mark>> atraves dela utiliz-</p>
+        <p>amos o atributo "href=" e passamos o link da pagina no qual queremos que o usuario acesse</p>
+        <p>Exemplo:</p>
+
+        <p>FORMADA ERRADA: <del>Acesse: https://www.dio.me/</del></p>
+
+        <p>FORMADA CORRETA: <a href="https://www.dio.me/">acesse aqui o site da DIO</a></p>
+        
+        <h1 id="referencias"><i>Referências</i></h1> <p><a href="#voltar"><small>(voltar ao topo)</small></small></p>
+        <a href="https://www.w3schools.com/"><p>https://www.w3schools.com/</p></a>
+        <a href="https://developer.mozilla.org/en-US/"><p>https://developer.mozilla.org/en-US/</p></a>
+
+    </body>
+</html>
