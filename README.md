@@ -1,1 +1,3 @@
-# desafio1_formacao_html_developer_dio
+<h1><i>Objetivo:</i></h1>
+
+<p>Realizar uma pagina web utilizando as tags das quais foram aprendidas durante o curso</p>
